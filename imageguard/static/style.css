@@ -1,0 +1,116 @@
+body {
+    background: rgb(53, 54, 58);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: linear-gradient(128deg, #062045, #000000);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icecream {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lefthero {
+    width: 60%;
+    text-decoration: none;
+    font-size: large;
+}
+
+.lefthero h2 {
+    color: #fff;
+}
+
+.lefthero p {
+    color: #fff;
+}
+
+.carousel {
+    position: relative;
+    width: 40%;
+    margin: 20px auto;
+}
+#header-buttons {
+    display: flex; /* Use flexbox to arrange buttons horizontally */
+    margin-left: auto; /* Push buttons to the right */
+}
+
+.header-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    
+    margin-left: auto
+    border: none;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+.card.fid-card.fid-shadow {
+    width: 40%;
+    margin: 10px auto;
+}
+.sign-in-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sign-in-button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.fid-bg-gradient {
+    background: linear-gradient(128deg, #062045, #000000);
+    background-size: 400% 400%;
+    -webkit-animation: fidG 30s ease infinite;
+    -moz-animation: fidG 30s ease infinite;
+    animation: fidG 30s ease infinite;
+}
+
+.chole {
+    margin: 20px 20px;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.card{
+    background: linear-gradient(128deg, #062045, #000000);
+}
+
+.card p{
+    color: #fff;
+}
+.card h5{
+    color: #fff;
+}
+
+#lol {
+    background: linear-gradient(128deg, #062045, #000000);
+}
+div#header-buttons {
+    margin: 0px 742px;
+}

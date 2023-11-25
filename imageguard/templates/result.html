@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Page</title>
+</head>
+<body>
+    <h1>Image Authenticity Result</h1>
+    <h2>Forgery Detected</h2>
+    <p>Similarity Score: {{ similarity_score }}</p>
+
+    <img src="{{ original_image }}" alt="Original Image" width="300">
+    <img src="{{ suspicious_image }}" alt="Suspicious Image" width="300">
+</body>
+</html>

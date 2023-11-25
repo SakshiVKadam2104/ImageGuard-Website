@@ -1,0 +1,36 @@
+body {
+    background: rgb(53, 54, 58);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: linear-gradient(128deg, #062045, #000000);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.card.text-center {
+    width: 40%;
+    margin: 40px auto;
+    background: linear-gradient(128deg, #062045, #000000);
+    box-shadow: 10px 0 40px 0 rgb(0 0 0/5%);
+    transition: ease 0.2s ;
+}
+.card.text-center h5{
+    color: #fff;
+}
+.card-body{
+    transition: ease-in 0.1s;
+}
+.card-body:hover {
+    background-color: rgba(40, 35, 124, 0.1);
+}
+.card{
+    transition: ease-in-out 0.2s;
+}
+.card:hover{
+    transform: scale(102%);
+    cursor: pointer;
+}

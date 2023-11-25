@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styleauth.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <title>Image Similarity Detection</title>
+</head>
+<body>
+    <header>
+        <h1>Image Similarity Detection</h1>
+    </header>
+  
+    <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Check Kar</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="#ebebeb" class="bi bi-image d-block mx-auto mb-4" viewBox="0 0 16 16">
+            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+            <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"></path>
+          </svg>
+    <form method="POST" action="/upload1" enctype="multipart/form-data">
+        <input type="file" name="image1" accept="image/*" required>
+        <input type="file" name="image2" accept="image/*" required>
+        <input type="submit" value="Upload">
+    </form>       
+  </div>
+      </div>
+      <footer class="mt-auto py-4 py-lg-5 bg-body-tertiary site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="row g-lg-5">
+                <div class="col-10 col-lg-8 mx-auto mx-lg-0 text-center text-lg-start mb-5 mb-lg-0">
+                  <h5 class="mb-4">Helpful Links</h5>
+                  <ul class="list-unstyled p-0 m-0">
+                    <li class="mb-2">
+                      <a class="text-decoration-none text-muted border-bottom pb-1" href="/https://ieeexplore.ieee.org/abstract/document/4806202">Image forgery detection[A survey]</a>
+                    </li>
+                    <li class="mb-2">
+                      <a class="text-decoration-none text-muted border-bottom pb-1" href="https://www.sciencedirect.com/science/article/abs/pii/S1742287613000364">Digital image forgery detection using passive techniques.</a>
+                    </li>
+   
+                  </ul>
+                </div>
+                <div class="col-lg-4 text-center text-lg-start mb-5 mb-lg-0">
+                  <h5 class="mb-4">Members</h5>
+                  <ul class="list-unstyled p-0 m-0">
+                    <li class="mb-2">
+                      <a class="text-decoration-none text-muted border-bottom pb-1">Sakshi Biradar</a>
+                    </li>
+                    <li class="mb-2">
+                      <a class="text-decoration-none text-muted border-bottom pb-1">Sakshi Kadam</a>
+                    </li>
+                    <li class="mb-2">
+                      <a class="text-decoration-none text-muted border-bottom pb-1">Sarumathi Sivaraman</a>
+                    </li>
+                    <li>
+                      <a class="text-decoration-none text-muted border-bottom pb-1">Helan Sonia</a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="row h-100">
+                <div class="col-lg-5 ms-auto text-center text-lg-end h-100 d-flex flex-column justify-content-between align-items-center align-items-lg-end">
+ 
+                  <p class="mb-0">©2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
